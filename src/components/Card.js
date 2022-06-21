@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ Data }) => {
   console.log("test", Data);
-  const p = `/connect/category/${Data.name}`;
+  const p = `/category/${Data.name}`;
   return (
     <Link to={p}>
       <div className="flex justify-center m-12 bg-white border-4 rounded-lg shadow-2xl h-72 hover:shadow-sm hover:border-emerald-300 hover:border-4">

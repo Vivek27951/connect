@@ -9,7 +9,7 @@ function details() {
       <div className="grid grid-cols-2">
         <div className="flex flex-col items-center justify-center">
           <div className="px-5 mr-auto text-2xl text-white bg-black">
-            <Link to={"/connect/category/Vehicles"}>{"<"} Back</Link>
+            <Link to={"/category/Vehicles"}>{"<"} Back</Link>
           </div>
           <img
             src={
@@ -35,8 +35,8 @@ function details() {
             Airbags, Keyless entry/Push Start, Alloy Wheels, Automatic Climate
             Control, Height Adjustable Seats, Parking Sensor
           </p>
-          <p className="p-5 text-base bg-black rounded-md shadow-2xl border-1 shadow-black border-slate-600 text-sky-400">
-            <span className="text-lg font-semibold text-black">
+          <p className="p-6 text-base bg-black rounded-md shadow-2xl border-1 shadow-black border-slate-600 text-sky-400">
+            <span className="text-lg font-semibold text-green-500">
               ADDITIONAL VEHICLE INFORMATION:
             </span>
             <br /> ABS: Yes
