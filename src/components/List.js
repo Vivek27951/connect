@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ Data }) => {
   // console.log("test", Data);
-  const p = `/category/Vehicles/details`;
+  const p = `/connect/category/Vehicles/details`;
   const bg = Data.status ? "green" : "red";
   // console.log("bg", bg);
   return (

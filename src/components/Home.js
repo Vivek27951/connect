@@ -16,7 +16,7 @@ const Home = () => {
             Connecting <span>INDIA</span> to accelerate india
           </h2>
           <Link
-            to={"/category"}
+            to={"/connect/category"}
             className="w-24 p-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
           >
             See More

@@ -9,7 +9,7 @@ function details() {
       <div className="grid grid-cols-2">
         <div className="flex flex-col items-center justify-center">
           <div className="px-5 mr-auto text-2xl text-white bg-black">
-            <Link to={"/category/Vehicles"}>{"<"} Back</Link>
+            <Link to={"/connect/category/Vehicles"}>{"<"} Back</Link>
           </div>
           <img
             src={

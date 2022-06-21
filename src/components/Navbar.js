@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
           {" "}
           <Link
-            to={"/"}
+            to={"/connect"}
             className="ml-10 text-2xl font-extrabold text-white hover:text-sky-600"
           >
             CONNECT
