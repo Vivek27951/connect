@@ -4,6 +4,7 @@ import Category from "../src/components/Category";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Vehicles from "../src/components/Vehicle";
 import Details from "../src/components/Details";
+import ErrorPage from "./components/ErrorPage";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             exact
             element={<Details />}
           />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
     </div>

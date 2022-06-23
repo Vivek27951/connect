@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="mx-2 hover:text-sky-600">RENT</div>
           <div className="flex mx-2 hover:text-sky-600">
             <div>CART</div>
-            <img src={cart} className="mx-1 h-fix w-7 rounded-2xl" />
+            <img src={cart} className="mx-1 h-fix w-7 rounded-2xl" alt="cart" />
           </div>
         </div>
       </div>

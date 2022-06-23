@@ -15,7 +15,6 @@ const Category = () => {
         {CATEGORY.map((data) => (
           <Card Data={data} />
         ))}
-        {/* <Card /> */}
       </div>
     </>
   );

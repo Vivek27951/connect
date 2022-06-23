@@ -18,10 +18,7 @@ const Card = ({ Data }) => {
             <h5 className="text-lg font-semibold text-slate-500">
               {Data.name}
             </h5>
-            <p className="text-[#00d09c]">
-              {/* <span>&#8377;</span> */}
-              {Data.total}
-            </p>
+            <p className="text-[#00d09c]">{Data.total}</p>
           </div>
         </div>
       </div>

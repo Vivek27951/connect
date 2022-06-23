@@ -1,8 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
 import share from "../images/share.jpeg";
 import { Link } from "react-router-dom";
-import Category from "./Category";
 
 const Home = () => {
   return (
@@ -13,7 +11,7 @@ const Home = () => {
             Welcome to <span className="text-blue-600 text-7xl">CONNNECT</span>
           </h1>
           <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-green-600">
-            Connecting <span>INDIA</span> to accelerate india
+            Connecting <span>INDIA</span> to accelerate INDIA
           </h2>
           <Link
             to={"/connnect/category"}
@@ -23,7 +21,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <img src={share} className="w-96" />
+          <img src={share} className="w-96" alt="connnect" />
           <p className="text-xl text-slate-700">Sharing is Caring</p>
         </div>
       </div>

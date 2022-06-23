@@ -12,6 +12,7 @@ function details() {
             <Link to={"/connnect/category/Vehicles"}>{"<"} Back</Link>
           </div>
           <img
+            alt="Details"
             src={
               "https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Hyundai-i10/2691/front-left-side-47.jpg"
             }
