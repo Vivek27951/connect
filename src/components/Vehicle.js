@@ -9,7 +9,7 @@ const Vehicles = () => {
     <>
       <Navbar />
       <h1 className="flex justify-center mt-5 text-4xl text-cyan-600">
-        <Link to={"/connect/category"}>vehicles</Link>
+        <Link to={"/connnect/category"}>vehicles</Link>
       </h1>
       <div className="grid grid-cols-4 center">
         {vehicles.map((data) => (

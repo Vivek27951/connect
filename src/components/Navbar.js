@@ -9,10 +9,10 @@ const Navbar = () => {
         <div>
           {" "}
           <Link
-            to={"/connect"}
+            to={"/connnect"}
             className="ml-10 text-2xl font-extrabold text-white hover:text-sky-600"
           >
-            CONNECT
+            CONNNECT
           </Link>
         </div>
         <div className="flex ml-10 text-xl text-white ">

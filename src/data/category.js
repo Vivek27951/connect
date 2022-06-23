@@ -3,7 +3,7 @@ const category = [
     id: 1,
     name: "Vehicles",
     imgUrl:
-      "http://www.nexagps.com/wp-content/uploads/2020/03/feature-all-vehicles.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74z3cphb1TmxlmtOqkQ0ZDhDI1qNqdLWazA&usqp=CAU",
     total: 1092,
   },
   {
@@ -26,13 +26,6 @@ const category = [
     imgUrl:
       "https://business-review.eu/wp-content/uploads/2018/04/electronic_devices.jpg",
     total: 763,
-  },
-  {
-    id: 5,
-    name: "Wearable",
-    imgUrl:
-      "https://img.freepik.com/free-vector/vector-set-different-footwear-hats-with-brown-beige-white-black-maroon-boxes-shelves_1284-48041.jpg?w=2000",
-    total: 1235,
   },
   {
     id: 6,

@@ -10,15 +10,15 @@ const App = () => {
     <div>
       <Router>
         <Routes>
-          <Route path="/connect" exact element={<Home />} />
-          <Route path="/connect/category" exact element={<Category />} />
+          <Route path="/connnect" exact element={<Home />} />
+          <Route path="/connnect/category" exact element={<Category />} />
           <Route
-            path="/connect/category/Vehicles"
+            path="/connnect/category/Vehicles"
             exact
             element={<Vehicles />}
           />
           <Route
-            path="/connect/category/Vehicles/:id"
+            path="/connnect/category/Vehicles/:id"
             exact
             element={<Details />}
           />

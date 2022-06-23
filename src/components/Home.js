@@ -10,13 +10,13 @@ const Home = () => {
       <div className="grid min-h-screen grid-cols-2">
         <div className="flex flex-col justify-center p-10 ml-36">
           <h1 className="text-5xl font-bold">
-            Welcome to <span className="text-blue-600 text-7xl">CONNECT</span>
+            Welcome to <span className="text-blue-600 text-7xl">CONNNECT</span>
           </h1>
           <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-green-600">
             Connecting <span>INDIA</span> to accelerate india
           </h2>
           <Link
-            to={"/connect/category"}
+            to={"/connnect/category"}
             className="w-24 p-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
           >
             See More
